@@ -1,0 +1,58 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body,html{
+    background-color: darkorchid;
+    height: 100vh;
+    width: 100vw;
+}
+section.longin{
+    background-color: white;
+    height: 500px;
+    width: 250px;
+    position: absolute;
+    left: 50%;  
+    top: 50%; 
+    transform: translate(-50%,-50%);
+    border-radius: 20px;
+    overflow: hidden;
+   
+}
+section>div#texto>h1{text-align: center;
+     padding: 10px;
+}
+section>div#texto>p{
+     padding: 10px
+     
+}
+
+
+section>div#texto>form>input,input{
+    text-align: center;
+    background-color: aquamarine;
+    height:30px;
+    width: 200px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    
+}
+
+section>div#texto>form>p#entrar{
+    padding-left: 30px;
+}
+
+
+section>div#imagem{
+   background-image: url(../imagens/metal.jpg);
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position:left bottom;
+   width: 100%;
+   height:40%;
+   
+}

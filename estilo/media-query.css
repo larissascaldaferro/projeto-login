@@ -1,0 +1,55 @@
+@charset "UTF-8";
+
+@media screen and (min-width:768px) and (max-width:992px){
+    body{
+        background-image: linear-gradient(to bottom,darkslateblue, aquamarine); 
+}
+section>div#texto>form>input,input{ 
+   height:40px;
+   width: 300px;
+}
+
+section.longin {
+    width: 70vw;
+    height: 280px;
+}
+
+section.longin > div#imagem {
+    float: left;
+    width: 30%;
+    height: 100%;
+}
+
+section.longin > div#texto {
+    float: right;
+    width: 70%;
+}
+}
+
+@media screen and (min-width:992px)
+{
+    body{
+        background-image: linear-gradient(to bottom,darkslateblue, aquamarine); 
+}
+
+section>div#texto>form>input,input{
+   
+    height:40px;
+    width: 320px;
+ }
+    section.longin{
+        width: 75vw;
+        height: 280px;
+    }
+    section.longin > div#imagem {
+        float: right;
+        width: 50%;
+        height: 100%;
+    }
+    
+    section.longin > div#texto {
+        float: left;
+        width: 50%;
+    }
+
+}
